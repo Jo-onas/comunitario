@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(19, 19, 19);
+   background-image:url(https://media.istockphoto.com/vectors/blue-seamless-bat-background-for-halloween-vector-id1339270558?b=1&k=20&m=1339270558&s=612x612&w=0&h=EJzoGW7xlPaz3gmrNXGh46spmtFIl5gtCj7moUaIG-8=);
+   background-size: 60%;
+   background-repeat:repeat;
+}
+
+/* Container do Header */
+
+.header-container {
+    margin: 2% ;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(104, 0, 173, 0.623);
+    padding:  20px 50px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.header-container:hover {
+    background-color: rgba(0, 255, 255, 0.404);
+}
+
+/* Itens do Header */
+
+.head-div {
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 1.5em;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.head-div a {
+    text-decoration: none;
+    color: white;
+}
+
+.head-div:hover{
+    font-size: 2em;
+}
+
+/* Itens do Main */
+
+.main-container {
+    width: 400vw;
+    display: flex;
+    background-color: red;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.itens {
+    color: blue;
+}
